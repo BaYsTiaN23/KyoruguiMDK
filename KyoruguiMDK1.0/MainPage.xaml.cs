@@ -14,7 +14,7 @@ namespace KyoruguiMDK1._0
 
         private void BtnRojo1_Clicked(object sender, EventArgs e)
         {
-            Label_editar.Text = "BOTON ROJO 1 FUNCIONANDO";
+            Label_editar.Text = "ACABO DE MODIFICAR EL CODIGO";
         }
 
         private void btnRojo5_Clicked(object sender, EventArgs e)
