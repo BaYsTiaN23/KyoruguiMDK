@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KyoruguiMDK1._0.MainPage">
+
+
+
+    <StackLayout BackgroundColor="#D8D8D8">
+        <Frame CornerRadius="20" HorizontalOptions="Center" Margin="20" >
+            <Grid RowDefinitions="*,*">
+                <Label Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Center" FontFamily="Courier New" FontAttributes="Bold" FontSize="12">KYOURUGUI MDK 1.0 --- FASE 1 INTERFAZ</Label>
+                <Label x:Name="Label_editar"  Grid.Column="0" Grid.Row="1" HorizontalTextAlignment="Center" FontFamily="Courier New" FontAttributes="Bold" FontSize="12">MENSAJE DE BOTON PRESIONADO</Label>
+            </Grid>
+
+        </Frame>
+
+        <Grid RowDefinitions="*,*" Padding="5" Margin="20,55,-20,-170">
+            <FlexLayout BackgroundColor="Red" Grid.Column="1" Grid.Row="0" Margin="10,0,50,-10">
+                <Grid RowDefinitions="*,*" Padding="10">
+                    <Button  Grid.Column="1" Grid.Row="2" Margin="10" BackgroundColor="#F4FA58" Opacity="15" Text="1" TextColor="Black" FontSize="18" FontFamily="Courier New" x:Name="BtnRojo1" Clicked="BtnRojo1_Clicked"></Button>
+                    <Button  Grid.Column="0" Grid.Row="1" Margin="10" BackgroundColor="#F4FA58" Opacity="15" Text="2" TextColor="Black" FontSize="18" FontFamily="Courier New" x:Name="BtnRojo2" Clicked="BtnRojo2_Clicked"></Button>
+                    <Button  Grid.Column="0" Grid.Row="0" Margin="10" BackgroundColor="#F4FA58" Opacity="15" Text="3" TextColor="Black" FontSize="18" FontFamily="Courier New" x:Name="BtnRojo3" Clicked="BtnRojo3_Clicked"></Button>
+                    <Button  Grid.Column="2" Grid.Row="1" Margin="10" BackgroundColor="#F4FA58" Opacity="15" Text="4" TextColor="Black" FontSize="18" FontFamily="Courier New" x:Name="BtnRojo4" Clicked="BtnRojo4_Clicked"></Button>
+                    <Button  Grid.Column="2" Grid.Row="0" Margin="10" BackgroundColor="#F4FA58" Opacity="15" Text="5" TextColor="Black" FontSize="18" FontFamily="Courier New" x:Name="btnRojo5" Clicked="btnRojo5_Clicked"></Button>
+                </Grid>
+            </FlexLayout>
+            <FlexLayout BackgroundColor="Blue" Grid.Column="0" Grid.Row="0" Margin="10,0,50,-10">
+                <Grid RowDefinitions="*,*" Padding="10">
+                    <Button  Grid.Column="1" Grid.Row="2" Margin="10" BackgroundColor="#F4FA58" Text="1" TextColor="Black" FontSize="18" FontFamily="Courier New" x:Name="BtnAzul1" Clicked="BtnAzul1_Clicked"></Button>
+                    <Button  Grid.Column="0" Grid.Row="1" Margin="10" BackgroundColor="#F4FA58" Text="2" TextColor="Black" FontSize="18" FontFamily="Courier New" x:Name="BtnAzul2" Clicked="BtnAzul2_Clicked"></Button>
+                    <Button  Grid.Column="0" Grid.Row="0" Margin="10" BackgroundColor="#F4FA58" Text="3" TextColor="Black" FontSize="18" FontFamily="Courier New" x:Name="BtnAzul3" Clicked="BtnAzul3_Clicked"></Button>
+                    <Button  Grid.Column="2" Grid.Row="1" Margin="10" BackgroundColor="#F4FA58" Text="4" TextColor="Black" FontSize="18" FontFamily="Courier New" x:Name="BtnAzul4" Clicked="BtnAzul4_Clicked"></Button>
+                    <Button  Grid.Column="2" Grid.Row="0" Margin="10" BackgroundColor="#F4FA58" Text="5" TextColor="Black" FontSize="18" FontFamily="Courier New" x:Name="btnAzul5" Clicked="btnAzul5_Clicked"></Button>
+                </Grid>
+            </FlexLayout>
+        </Grid>
+    </StackLayout>
+    
+
+</ContentPage>
